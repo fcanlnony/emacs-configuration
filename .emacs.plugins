@@ -1,5 +1,4 @@
 (require 'use-package)
-(require 'ebuild-mode)
 
 (require 'mini-modeline)
 (mini-modeline-mode t)

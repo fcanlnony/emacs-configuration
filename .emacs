@@ -20,7 +20,7 @@
         dashboard flycheck indent-guide  kaolin-themes
         mini-modeline neotree
         projectile rainbow-delimiters smex
-        use-package yasnippet yasnippet-snippets company-irony))
+        use-package yasnippet yasnippet-snippets))
 (require 'kaolin-themes)
 (load-theme 'kaolin-light t)
 (load-file "~/.emacs.projectile")

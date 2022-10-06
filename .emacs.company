@@ -6,5 +6,3 @@
 (setq company-selection-wrap-around t)
 (require 'company-box)
 (add-hook 'company-mode-hook 'company-box-mode)
-(eval-after-load 'company
-  '(add-to-list 'company-backends 'company-irony))

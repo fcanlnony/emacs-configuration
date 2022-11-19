@@ -6,7 +6,7 @@
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
  '(package-selected-packages
-   '(eglot all-the-icons flycheck company-box indent-guide kaolin-themes mini-modeline neotree rainbow-delimiters smex use-package yasnippet yasnippet-snippets))
+   '(all-the-icons company company-box dashboard flycheck indent-guide kaolin-themes mini-modeline neotree projectile rainbow-delimiters smex use-package yasnippet yasnippet-snippets))
  '(tool-bar-mode nil)
  '(warning-suppress-log-types '((use-package) (use-package)))
  '(warning-suppress-types '((use-package))))
@@ -16,11 +16,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight regular :height 129 :width normal)))))
-(setq package-selected-packages '(all-the-icons company company-box
-        dashboard flycheck indent-guide  kaolin-themes
-        mini-modeline neotree
-        projectile rainbow-delimiters smex
-        use-package yasnippet yasnippet-snippets))
 (require 'kaolin-themes)
 (load-theme 'kaolin-light t)
 (load-file "~/.emacs.projectile")

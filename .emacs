@@ -22,5 +22,4 @@
 (load-file "~/.emacs.neotree")
 (load-file "~/.emacs.plugins")
 (load-file "~/.emacs.company")
-(load-file "~/.emacs.yasnippet")
 (load-file "~/.emacs.flycheck")

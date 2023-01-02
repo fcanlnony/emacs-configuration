@@ -8,6 +8,6 @@ And then start your GNU Emacs: M-x package-install-selected-packages RET
 After that,restart your GNU Emacs                                                                                                                           
 Warning: I using liberation-fonts as my GNU Emacs default fonts
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-Packing as needed ： all-the-icons company company-box dashboard flycheck indent-guide kaolin-themes mini-modeline neotree projectile rainbow-delimiters smex use-package yasnippet yasnippet-snippets
+Packing as needed ： all-the-icons company company-box dashboard flycheck indent-guide kaolin-themes mini-modeline neotree projectile rainbow-delimiters smex use-package
 ---
-If you have clang installed, then you can remove the file .emacs.yasnippet and delete the (load-file "~/.emacs.yasnippet") inside .emacs
+Remember to install clang, it is a necessary part of the configuration file.

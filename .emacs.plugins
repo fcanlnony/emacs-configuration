@@ -1,7 +1,7 @@
 (require 'use-package)
 
-(require 'mini-modeline)
-(mini-modeline-mode t)
+(require 'telephone-line)
+(telephone-line-mode t)
 
 (require 'smex)
 (smex-initialize)
@@ -13,3 +13,13 @@
 (add-hook 'foo-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
+(require 'markdown-mode)
+
+(require 'centaur-tabs)
+(setq centaur-tabs-style "bar")
+(setq centaur-tabs-set-icons t)
+(setq centaur-tabs-plain-icons t)
+(setq centaur-tabs-set-bar 'left)
+(centaur-tabs-mode t)
+(global-set-key (kbd "C-<prior>")  'centaur-tabs-backward)
+(global-set-key (kbd "C-<next>") 'centaur-tabs-forward)

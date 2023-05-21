@@ -19,7 +19,7 @@
 (load-file "~/.emacs.projectile")
 (load-file "~/.emacs.dashboard")
 (load-file "~/.emacs.indent-guide")
-(load-file "~/.emacs.neotree")
+(load-file "~/.emacs.treemacs")
 (load-file "~/.emacs.plugins")
 (load-file "~/.emacs.company")
 (load-file "~/.emacs.flycheck")

@@ -11,3 +11,5 @@
 ** Packing as needed ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon
 
 * Remember to install clang,which provide clangd.
+
+* Press F8 to open treemacs, my default setting is to hide hidden files.

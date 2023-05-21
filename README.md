@@ -13,3 +13,6 @@
 * Remember to install clang,which provide clangd.
 
 * Press F8 to open treemacs, my default setting is to hide hidden files.
+
+# Preview
+![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-21%2010-56-06.png?raw=true "code")

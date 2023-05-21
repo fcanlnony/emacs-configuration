@@ -1,14 +1,13 @@
-# my-emacs-config
-* A simple emacs configure
-
+# Warring & Installation
 * Only configure for C language(because i only could write program in C),but it may also suitable for Scheme,Shell
 
-** git clone https://github.com/fcanlnony/my-emacs-configure.git ~/emacs-config && cd ~/emacs.config && chmod +x ./install.sh && ./install.sh                 
-** And then start your GNU Emacs: M-x package-install-selected-packages RET                                                                                   
-** After that,restart your GNU Emacs                                                                                                                           
-* Warning: I using liberation-fonts as my GNU Emacs default fonts
+* How to use it</p>
+  *git clone https://github.com/fcanlnony/my-emacs-configure.git ~/emacs-config && cd ~/emacs.config && chmod +x ./install.sh && ./install.sh*                
+  *And then start your GNU Emacs: M-x package-install-selected-packages RET*                                                                                   
+  *After that,restart your GNU Emacs*                                                                                                                           
+  *Warning: I using liberation-fonts as my GNU Emacs default fonts*
 
-** Packing as needed ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon
+  **Packing as needed ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon**
 
 * Remember to install clang,which provide clangd.
 

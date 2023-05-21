@@ -15,4 +15,8 @@
 * Press F8 to open treemacs, my default setting is to hide hidden files.
 
 # Preview
+* Start Page
+![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-21%2010-55-39.png?raw=true)
+
+* Code
 ![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-21%2010-56-06.png?raw=true "code")

@@ -8,6 +8,6 @@
 ** After that,restart your GNU Emacs                                                                                                                           
 * Warning: I using liberation-fonts as my GNU Emacs default fonts
 
-** Packing as needed ： all-the-icons company company-box dashboard flycheck indent-guide kaolin-themes telephone-line neotree projectile rainbow-delimiters smex use-package markdown-mode centaur-tabs eat beacon
+** Packing as needed ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line neotree projectile rainbow-delimiters smex use-package markdown-mode eat beacon
 
 * Remember to install clang,which provide clangd.

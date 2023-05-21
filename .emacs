@@ -14,8 +14,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight regular :height 129 :width normal)))))
-(require 'kaolin-themes)
-(load-theme 'kaolin-mono-light t)
+(require 'material-theme)
+(load-theme 'material-theme t)
 (load-file "~/.emacs.projectile")
 (load-file "~/.emacs.dashboard")
 (load-file "~/.emacs.indent-guide")

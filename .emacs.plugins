@@ -15,15 +15,13 @@
 
 (require 'markdown-mode)
 
-(require 'centaur-tabs)
-(setq centaur-tabs-style "bar")
-(setq centaur-tabs-set-icons t)
-(setq centaur-tabs-plain-icons t)
-(setq centaur-tabs-set-bar 'left)
-(centaur-tabs-mode t)
-(global-set-key (kbd "C-<prior>")  'centaur-tabs-backward)
-(global-set-key (kbd "C-<next>") 'centaur-tabs-forward)
-
 (require 'eat)
 (require 'beacon)
 (beacon-mode 1)
+
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/awesome-tab"))
+
+(require 'awesome-tab)
+
+(awesome-tab-mode t)
+(setq awesome-tab-height 125)

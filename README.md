@@ -15,7 +15,7 @@
 
 # Preview
 * Start Page
-![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-21%2011-31-11.png?raw=true "startpage")
+![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-26%2020-22-14.png?raw=true "startpage")
 
 * Code
-![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-21%2011-31-44.png?raw=true "code")
+![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-26%2020-22-28.png?raw=true "code")

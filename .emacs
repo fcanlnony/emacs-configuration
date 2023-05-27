@@ -5,6 +5,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
+ (setq package-selected-packages
+   '(treemacs highlight-indent-guides material-theme beacon all-the-icons markdown-mode dashboard company-box flycheck indent-guide telephone-line projectile rainbow-delimiters smex))
  '(tool-bar-mode nil)
  '(warning-suppress-log-types '((use-package) (use-package)))
  '(warning-suppress-types '((use-package))))

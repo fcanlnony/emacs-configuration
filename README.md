@@ -4,7 +4,8 @@
 * How to use it</p>
   *git clone https://github.com/fcanlnony/my-emacs-configure.git ~/emacs-config && cd ~/emacs.config && chmod +x ./install.sh && ./install.sh*                
   *And then start your GNU Emacs: M-x package-refresh-cont-contents RET*                                                                                           
-  *After that: M-x package-install-selected-packages RET*                                                                                                           
+  *After that: M-x package-install-selected-packages RET*
+  *Next: M-x all-the-icons-install-fonts RET*                                                                                                                     
   *After that,restart your GNU Emacs*                                                                                                                           
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*
 

@@ -3,11 +3,12 @@
 
 * How to use it</p>
   *git clone https://github.com/fcanlnony/my-emacs-configure.git ~/emacs-config && cd ~/emacs.config && chmod +x ./install.sh && ./install.sh*                
-  *And then start your GNU Emacs: M-x package-install-selected-packages RET*                                                                                   
+  *And then start your GNU Emacs: M-x package-refresh-cont-contents RET*                                                                                           
+  *After that: M-x package-install-selected-packages*                                                                                                             
   *After that,restart your GNU Emacs*                                                                                                                           
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*
 
-  **Packing as needed ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon**
+  **extensions used ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon awesome-tab**
 
 * Remember to install clang,which provide clangd.
 

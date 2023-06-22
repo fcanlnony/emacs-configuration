@@ -6,7 +6,7 @@
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
  (setq package-selected-packages
-   '(treemacs highlight-indent-guides material-theme beacon all-the-icons markdown-mode dashboard company-box flycheck indent-guide telephone-line projectile rainbow-delimiters smex eat))
+   '(all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon))
  '(tool-bar-mode nil)
  '(warning-suppress-log-types '((use-package) (use-package)))
  '(warning-suppress-types '((use-package))))
@@ -17,7 +17,7 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight regular :height 129 :width normal)))))
 (require 'material-theme)
-(load-theme 'material-theme t)
+(load-theme 'material-light t)
 (load-file "~/.emacs.projectile")
 (load-file "~/.emacs.dashboard")
 (load-file "~/.emacs.indent-guide")

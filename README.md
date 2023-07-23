@@ -9,17 +9,10 @@
   *After that,restart your GNU Emacs*                                                                                                                           
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*
 
-  **extensions used ： all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab lsp-bridge** 
-  
-  *You could edit theme in ~/.emacs,this configure used my custom theme as default*
-
-* Remember to install clang,which provide clangd.
+  **extensions used ： all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab lsp-bridge material-theme** 
 
 * Press F8 to open treemacs, my default setting is to hide hidden files.
 
 # Preview
 * Start Page
 ![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-26%2020-22-14.png?raw=true "startpage")
-
-* Code
-![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-26%2020-22-28.png?raw=true "code")

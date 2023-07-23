@@ -9,7 +9,8 @@
   *After that,restart your GNU Emacs*                                                                                                                           
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*
 
-  **extensions used ： all-the-icons company company-box dashboard flycheck highlight-indent-guides material-theme telephone-line treemacs projectile rainbow-delimiters smex use-package markdown-mode eat beacon awesome-tab**
+  **extensions used ： all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab lsp-bridge**
+  *You could edit theme in ~/.emacs,this configure used my custom theme as default*
 
 * Remember to install clang,which provide clangd.
 

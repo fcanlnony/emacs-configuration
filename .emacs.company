@@ -1,8 +1,0 @@
-(require 'company)
-(global-company-mode)
-(setq company-minimum-prefix-length 1)
-(setq company-tooltip-align-annotations t)
-(setq company-idle-delay 0)
-(setq company-selection-wrap-around t)
-(require 'company-box)
-(add-hook 'company-mode-hook 'company-box-mode)

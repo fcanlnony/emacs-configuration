@@ -12,7 +12,3 @@
   **extensions used ： all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab lsp-bridge material-theme** 
 
 * Press F8 to open treemacs, my default setting is to hide hidden files.
-
-# Preview
-* Start Page
-![Screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/Screenshot%20from%202023-05-26%2020-22-14.png?raw=true "startpage")

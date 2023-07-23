@@ -5,7 +5,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
- '(setq package-selected-packages
+ (setq package-selected-packages
    '(all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet))
  '(tool-bar-mode nil)
  '(warning-suppress-log-types '((use-package) (use-package)))
@@ -17,6 +17,7 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight regular :height 129 :width normal)))))
 (add-to-list 'load-path "~/.emacs.d/plugins/simple-theme")
+(require 'simple-theme)
 (load-theme 'simple-theme t)
 (load-file "~/.emacs.projectile")
 (load-file "~/.emacs.dashboard")

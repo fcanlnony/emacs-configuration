@@ -7,7 +7,8 @@
   *And then start your GNU Emacs: M-x package-refresh-cont-contents RET*                                                                   
   *Next: M-x package-install-selected-packages RET*     
   *Last: M-x all-the-icons-install-fonts RET*    
-  *After that,restart your GNU Emacs*  
+  *After that,restart your GNU Emacs*
+  *Configure lsp-bridge: https://github.com/manateelazycat/lsp-bridge
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*
      
   **extensions used ： all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab lsp-bridge** 

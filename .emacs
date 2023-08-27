@@ -1,5 +1,5 @@
 (load-file "~/.emacs.base")
-(add-to-list 'default-frame-alist '("font . Noto Sans Mono-11"))
+(add-to-list 'default-frame-alist '(font . "Noto Sans Mono-12.9"))
 (setq package-selected-packages
        '(all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet))
 (add-to-list 'load-path "~/.emacs.d/plugins/simple-theme")

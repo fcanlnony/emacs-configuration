@@ -18,4 +18,4 @@
 * Press F8 to open treemacs, my default setting is to hide hidden files.
 
 ## Preview
-![screenshot](./screenshot.png "screenshot")
+![preview](./preview.png "preview")

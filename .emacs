@@ -12,6 +12,7 @@
 (load-file "~/.emacs.plugins")
 (load-file "~/.emacs.flycheck")
 (load-file "~/.emacs.lsp-bridge")
-
+(add-to-list 'load-path "~/.emacs.d/plugins/simple-modeline")
+(require 'simple-modeline)
 
 ;;; .emacs ends here

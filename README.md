@@ -18,4 +18,4 @@
 * Press F8 to open treemacs, my default setting is to hide hidden files.
 
 ## Preview
-![screenshot](https://github.com/fcanlnony/my-emacs-configure/blob/main/screenshot.png?raw=true "screenshot")
+![screenshot](./screenshot.png "screenshot")

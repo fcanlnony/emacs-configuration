@@ -1,7 +1,7 @@
 (load-file "~/.emacs.base")
 (add-to-list 'default-frame-alist '(font . "Noto Sans Mono-12.9"))
 (setq package-selected-packages
-       '(all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet))
+       '(all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet eat))
 (add-to-list 'load-path "~/.emacs.d/plugins/simple-theme")
 (require 'simple-theme-theme)
 (load-theme 'simple-theme t)
@@ -12,7 +12,8 @@
 (load-file "~/.emacs.plugins")
 (load-file "~/.emacs.flycheck")
 (load-file "~/.emacs.lsp-bridge")
-(add-to-list 'load-path "~/.emacs.d/plugins/simple-modeline")
-(require 'simple-modeline)
+(load-file "~/project/simple-modeline/simple-modeline.el")
 
+(if (native-comp-available-p)
+    (setq native-comp-async-report-warnings-errors nil))
 ;;; .emacs ends here

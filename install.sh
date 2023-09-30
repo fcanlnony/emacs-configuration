@@ -4,3 +4,4 @@ git clone --depth=1 https://github.com/manateelazycat/awesome-tab.git ~/.emacs.d
 git clone --depth=1 https://github.com/manateelazycat/lsp-bridge.git ~/.emacs.d/plugins/lsp-bridge
 git clone --depth=1 https://github.com/fcanlnony/simple-theme.git ~/.emacs.d/plugins/simple-theme
 git clone --depth=1 https://github.com/fcanlnony/simple-modeline.git ~/.emacs.d/plugins/simple-modeline
+pip3 install epc orjson sexpdata six paramiko rapidfuzz

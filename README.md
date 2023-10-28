@@ -11,7 +11,7 @@
   *Configure lsp-bridge: https://github.com/manateelazycat/lsp-bridge*   
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*
      
-  **extensions used ： all-the-icons dashboard flycheck highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab lsp-bridge** 
+  **extensions used ： all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab** 
   
   **The default applies to my own configuration of the theme, if you need to modify the ~/.emacs can be modified**
 

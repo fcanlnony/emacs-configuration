@@ -1,0 +1,17 @@
+(setq-default mode-line-compact 'long)
+
+(setq-default
+ mode-line-buffer-identification
+ '(!eval (propertize "%12b"
+		     'face (if (mode-line-window-selected-p)
+			       'mode-line-highlight
+			     'mode-line-inactive))))
+
+(setq-default mode-line-format
+	      (list
+	       "%e"
+	       " %- Status: %+ | Buffer: %b | Size: %I | Line: %l | Position: %o | Mode: %m %- "))
+
+
+(force-mode-line-update)
+

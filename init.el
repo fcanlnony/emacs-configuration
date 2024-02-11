@@ -1,7 +1,7 @@
 (load-file "~/.emacs.d/configuration/config/emacs.base-config.el")
 (add-to-list 'default-frame-alist '(font . "Noto Sans Mono-12.9"))
 (setq package-selected-packages
-       '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet corfu corfu-terminal))
+       '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet corfu corfu-terminal imenu-list))
 (add-to-list 'load-path "~/.emacs.d/plugins/simple-theme")
 (require 'simple-theme-theme)
 (load-theme 'simple-theme t)

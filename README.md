@@ -10,7 +10,7 @@
   *After that,restart your GNU Emacs*</p>
   *Warning: I using liberation-fonts as my GNU Emacs default fonts*</p>
 
-  **extensions used ： all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab corfu corfu-terminal**</p>
+  **extensions used ： all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab corfu corfu-terminal imenu-list**</p>
   **The default applies to my own configuration of the theme, if you need to modify the init.el can be modified**</p>
 
 * Press F8 to open treemacs, my default setting is to hide hidden files.</p>

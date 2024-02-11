@@ -2,7 +2,7 @@
 (add-to-list 'default-frame-alist '(font . "Noto Sans Mono-12.9"))
 (setq package-selected-packages
        '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet corfu corfu-terminal imenu-list kaolin-theme))
-(load-theme 'kaolin-light t)
+(load-theme 'kaolin-mono-light t)
 (load-file "~/.emacs.d/configuration/config/emacs.extra-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.dashboard-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.indent-guide-config.el")

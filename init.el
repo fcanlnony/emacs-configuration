@@ -9,9 +9,10 @@
 (load-file "~/.emacs.d/configuration/config/emacs.treemacs-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.corfu-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.projectile-config.el")
-(add-to-list 'load-path "./elisp")
-(require 'emacs.statusbar.el)
+(load-file "~/.emacs.d/configuration/elisp/emacs.statusbar.el")
 
 (if (native-comp-available-p)
   (setq native-comp-async-report-warnings-errors nil))
+(setq display-warning nil)
 ;;; .emacs ends here
+

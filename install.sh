@@ -1,4 +1,5 @@
 #/bin/bash
+mkdir -p ~/.emacs.d/configuration
 cp -r config/ ~/.emacs.d/configuration/
 cp -r elisp/ ~/.emacs.d/configuration/
 cp init.el ~/.emacs.d/configuration/

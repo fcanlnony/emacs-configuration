@@ -8,7 +8,7 @@
   *Next: M-x package-install-selected-packages RET*</p>
   *Last: M-x all-the-icons-install-fonts RET*</p>
   *After that,restart your GNU Emacs*</p>
-  *Warning: I using Noto Sans Mono as my GNU Emacs default fonts*</p>
+  *Warning: I using Cascadia Mono SemiLight as my GNU Emacs default fonts*</p>
 
   **extensions used ： all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab corfu corfu-terminal imenu-list**</p>
   **The default applies to the kaolin-theme, if you need to modify the init.el can be modified**</p>

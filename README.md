@@ -17,4 +17,3 @@
 
 ## Preview
 ![preview](./Screenshot/Preview.png "preview")
-![preview2](./Screenshot/C_Preview.png "preview2")

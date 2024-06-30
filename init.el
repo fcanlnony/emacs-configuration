@@ -1,7 +1,7 @@
 (load-file "~/.emacs.d/configuration/config/emacs.base-config.el")
 (add-to-list 'default-frame-alist '(font . "Cascadia Mono SemiLight-13.0"))
 (setq package-selected-packages
-       '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet corfu corfu-terminal imenu-list kaolin-themes))
+       '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon yasnippet corfu corfu-terminal kaolin-themes))
 (load-theme 'kaolin-mono-light t)
 (load-file "~/.emacs.d/configuration/config/emacs.extra-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.dashboard-config.el")

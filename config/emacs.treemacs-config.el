@@ -2,5 +2,5 @@
 (setq treemacs-no-load-time-warnings t)
 (treemacs-load-theme "Default")
 (global-set-key [f8] 'treemacs)
-(setq treemacs-width 22)
+(setq treemacs-width 18)
 (setq treemacs-show-hidden-files nil)

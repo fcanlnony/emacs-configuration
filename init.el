@@ -1,5 +1,5 @@
 (load-file "~/.emacs.d/configuration/config/emacs.base-config.el")
-(add-to-list 'default-frame-alist '(font . "Cascadia Mono SemiLight-13.0"))
+(add-to-list 'default-frame-alist '(font . "Cascadia Mono SemiLight-12.0"))
 (setq package-selected-packages
        '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon corfu corfu-terminal kaolin-themes))
 (load-theme 'kaolin-mono-light t)

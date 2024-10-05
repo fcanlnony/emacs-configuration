@@ -13,8 +13,7 @@
 	       " %- Status: %+ | Buffer: %b | Size: %I"
 	       '(:eval (propertize
                         " " 'display
-                        `((space :align-to (- (+ right right-fringe right-margin)
-                                              ,(+ 36 (string-width mode-name)))))))
+                        `((space :align-to (- (+ right right-fringe right-margin),(+ 36 (string-width mode-name)))))))
 	       "Line: %l | Position: %o | Mode: %m %- "))
 
 

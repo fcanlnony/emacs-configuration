@@ -8,3 +8,5 @@
   (corfu-terminal-mode +1))
 (global-corfu-mode)
 (add-hook 'prog-mode-hook 'eglot-ensure)
+(require 'dabbrev)
+(setq dabbrev-abbrev-char-regexp "[A-Za-z-_]")

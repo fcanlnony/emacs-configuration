@@ -11,7 +11,7 @@
   *Warning: I using Cascadia Mono SemiLight as my GNU Emacs default fonts*</p>
 
   **extensions used ： all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon awesome-tab corfu corfu-terminal**</p>
-  **The default applies to the kaolin-theme, if you need to modify the init.el can be modified**</p>
+  **The default applies to the catppuccin, if you need to modify the init.el can be modified**</p>
 
 * Press F8 to open treemacs, my default setting is to hide hidden files.</p>
 

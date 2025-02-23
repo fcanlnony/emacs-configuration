@@ -1,8 +1,10 @@
 (load-file "~/.emacs.d/configuration/config/emacs.base-config.el")
 (add-to-list 'default-frame-alist '(font . "Cascadia Mono SemiLight-12.0"))
 (setq package-selected-packages
-       '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon corfu corfu-terminal kaolin-themes))
-(load-theme 'kaolin-mono-light t)
+       '(all-the-icons dashboard highlight-indent-guides treemacs projectile rainbow-delimiters smex use-package markdown-mode beacon corfu corfu-terminal catppuccin-theme))
+(load-theme 'catppuccin :no-confirm)
+(setq catppuccin-flavor 'latte)
+(catppuccin-reload)
 (load-file "~/.emacs.d/configuration/config/emacs.extra-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.dashboard-config.el")
 (load-file "~/.emacs.d/configuration/config/emacs.indent-guide-config.el")

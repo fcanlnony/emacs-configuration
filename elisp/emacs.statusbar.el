@@ -14,7 +14,10 @@
 	       '(:eval (propertize
                         " " 'display
                         `((space :align-to (- (+ right right-fringe right-margin),(+ 36 (string-width mode-name)))))))
-	       "Line: %l | Position: %o | Mode: %m %- "))
+	       "Line: %l | Position: %o | Mode: %m %- "
+	       "%e"
+	       'mode-line-right-align-edge
+		))
 
 
 (force-mode-line-update)

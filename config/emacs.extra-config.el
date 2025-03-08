@@ -21,3 +21,7 @@
 
 (awesome-tab-mode t)
 (setq awesome-tab-height 125)
+
+(use-package fira-code-mode
+  :custom (fira-code-mode-disabled-ligatures '("[]" "x"))
+  :hook prog-mode)                                        

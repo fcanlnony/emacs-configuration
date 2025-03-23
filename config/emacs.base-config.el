@@ -16,6 +16,5 @@
 (mouse-wheel-mode t)
 (setq make-backup-files nil)
 (setq backup-directory-alist (quote (("." . "~/.backups"))))
-(setq scroll-step 1
-        scroll-margin 3
-        scroll-conservatively 10000)
+(pixel-scroll-precision-mode 1)
+(setq pixel-scroll-precision-interpolate-page t)

@@ -14,3 +14,4 @@
   (global-flycheck-mode t))
 
 (global-set-key [f5] 'lsp-bridge-code-format)
+(add-hook 'after-save-hook #'lsp-bridge-code-format)

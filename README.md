@@ -16,7 +16,7 @@
   **The default applies to the catppuccin, if you need to modify the init.el can be modified.**</p>
 
 * Press F8 to open treemacs, my default setting is to hide hidden files.</p>
-* Press F5 to format the code.</p>
+* Press F5 to format the code (auto format after save buffer).</p>
 * Provides eglot configuration, but uses lsp-bridge by default.</p>
 
 ## End
